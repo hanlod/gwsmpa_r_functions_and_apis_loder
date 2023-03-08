@@ -332,3 +332,17 @@ saveRDS(allcounties_wide, here("data", "allcounties_wide_demographics.rds"))
 
 ```
 
+
+TOP TEN COUNTIES BY CHOSEN MEASURE
+Data
+```{r}
+allcounties_wide %>% 
+  arrange(medianage_bysex) %>% 
+  head(10)
+```
+
+Chart 
+```{r}
+
+```
+
