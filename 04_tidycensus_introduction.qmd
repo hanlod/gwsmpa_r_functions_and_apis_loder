@@ -235,7 +235,8 @@ myvars <- c(totalpop = "B01003_001",
             originrace_whitealone = "B03002_003",
             education_total = "B06009_001",
             education_bachelors = "B06009_005",
-            education_gradprofess = "B06009_006")
+            education_gradprofess = "B06009_006",
+            medianage_bysex = "B01002A_001")
 ```
 
 
